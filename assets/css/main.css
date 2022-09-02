@@ -248,6 +248,11 @@ header {
     letter-spacing: 1px;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 footer {
     position:  absolute;
     bottom: 0;
