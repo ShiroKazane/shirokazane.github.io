@@ -7,6 +7,18 @@
 
 body {
     overflow-x: hidden;
+    background: #f3f8ff;
+}
+
+body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+    -moz-animation: none !important;
+    -webkit-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
 }
 
 .navigation {
@@ -62,7 +74,7 @@ body {
 
 .navLink ul li a {
     position: relative;
-    color: #fff;
+    color: #f3f8ff;
     font-size: 2em;
     font-weight: 500;
     text-decoration: none;
@@ -198,7 +210,7 @@ header {
     padding: 10px 20px;
     text-decoration: none;
     background: #ff1455;
-    color: #fff;
+    color: #f3f8ff;
     font-weight: 500;
     border-radius: 4px;
     letter-spacing: 1px;
