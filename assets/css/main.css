@@ -285,6 +285,19 @@ footer {
     letter-spacing: 1px;
 }
 
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.eot');
+    src: local(''),
+        url('../fonts/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/poppins-v20-latin-500.woff2') format('woff2'),
+        url('../fonts/poppins-v20-latin-500.woff') format('woff'),
+        url('../fonts/poppins-v20-latin-500.ttf') format('truetype'),
+        url('../fonts/poppins-v20-latin-500.svg#Poppins') format('svg');
+}
+
 @media (max-width: 991px) {
     .sec {
         padding: 40px;
