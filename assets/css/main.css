@@ -5,6 +5,38 @@
     font-family: 'Poppins', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-button {
+    background: #222;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: #000;
+}
+
+::-webkit-scrollbar-corner {
+    background: #999;
+}
+
+::-webkit-resizer {
+    background: #111;
+}
+
 body {
     overflow-x: hidden;
     background: #f3f8ff;
