@@ -9,13 +9,6 @@ body {
     overflow-x: hidden;
 }
 
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-    -moz-animation: none !important;
-    -ms-animation: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-}
-
 .navigation {
     position: fixed;
     top: 0;
