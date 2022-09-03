@@ -47,10 +47,8 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 ::-webkit-scrollbar-thumb {
     background: var(--link-color);
     border-radius: 20px;
-    border: 4px solid;
+    border: 4px solid rgb(255, 255, 255, 1);
 }
-
-
 
 .navigation {
     position: fixed;
@@ -3401,7 +3399,7 @@ footer {
     clip: auto
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     .sec {
         padding: 40px;
         flex-direction: column;
