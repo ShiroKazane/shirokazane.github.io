@@ -164,8 +164,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     height: 400px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 10% 10%;
-    justify-items: center;
+    margin: 8% 8%;
 }
 
 .sec .content {
