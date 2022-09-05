@@ -3,7 +3,6 @@
     --bg-color: #2d3748;
     --link-color: #2196f3;
     --p-color: #eee;
-    --button-color: #f3f6fb;
     --loader-color: #2d3748;
     --nav-bg-color: #1a212d;
     --nav-fg-color: #f7f7f7;
@@ -219,7 +218,7 @@ body {
 }
 
 .sec .content .btn {
-    background: var(--link-color);
+    background: var(--fg-color);
 }
 
 header {
@@ -320,7 +319,7 @@ header {
     text-decoration: none;
     padding: 10px 20px;
     min-width: 7rem;
-    color: var(--button-color);
+    color: var(--bg-color);
     font-weight: 500;
     border-radius: 100px;
     letter-spacing: 1px;
