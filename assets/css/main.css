@@ -3696,11 +3696,6 @@ footer {
 }
 
 @media (min-width: 901px) and (max-width: 1024px) {
-  header,
-  footer {
-    padding: 20px 40px;
-  }
-
   .sec .imgBx {
     width: 360px;
     min-width: 360px;
@@ -3709,7 +3704,7 @@ footer {
   }
 
   .sec .content h2 span {
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
 
   .toggle.active {
@@ -3723,11 +3718,6 @@ footer {
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
-  header,
-  footer {
-    padding: 20px 40px;
-  }
-
   .sec .imgBx {
     width: 380px;
     min-width: 380px;
@@ -3736,7 +3726,7 @@ footer {
   }
 
   .sec .content h2 span {
-    font-size: 1.8em;
+    font-size: 2em;
   }
 
   .toggle.active {
