@@ -27,6 +27,7 @@
 body {
   overflow-x: hidden;
   background: var(--bg-color);
+  color: var(--bg-color);
 }
 
 ::-webkit-scrollbar {
