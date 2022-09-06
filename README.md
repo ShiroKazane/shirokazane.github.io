@@ -1,2 +1,3 @@
-# shirokazane.github.io
-just a personal portfolio
+# shirokazane
+
+a simple website hosted by `github.io`
