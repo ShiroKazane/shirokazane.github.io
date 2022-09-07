@@ -74,7 +74,7 @@ body {
 }
 
 .navigation {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
@@ -597,13 +597,9 @@ footer {
     font-size: 1.8em;
   }
 
-  .toggle.active {
-    left: -120px;
-  }
-
   .navLink ul li a {
     font-size: 2em;
-    margin-left: 50px;
+    margin-left: 60px;
   }
 }
 
@@ -619,13 +615,9 @@ footer {
     font-size: 2em;
   }
 
-  .toggle.active {
-    left: -120px;
-  }
-
   .navLink ul li a {
     font-size: 2em;
-    margin-left: 50px;
+    margin-left: 80px;
   }
 }
 
