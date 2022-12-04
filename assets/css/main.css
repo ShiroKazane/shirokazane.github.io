@@ -28,6 +28,7 @@ body {
   overflow-x: hidden;
   background: var(--bg-color);
   color: var(--bg-color);
+  transition: 0.5s;
 }
 
 ::-webkit-scrollbar {
