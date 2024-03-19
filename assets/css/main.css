@@ -97,6 +97,8 @@ body {
   position: relative;
   width: 50%;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .cover {
@@ -112,8 +114,6 @@ body {
   position: relative;
   width: 50%;
   height: 100%;
-  display: flex;
-  align-items: center;
 }
 
 .navLink ul {
@@ -291,8 +291,8 @@ header {
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  padding: 10px 15px;
-  min-width: 7rem;
+  padding: 10px 20px;
+  min-width: 6.5rem;
   color: var(--bg-color);
   font-weight: 500;
   border-radius: 100px;
