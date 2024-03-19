@@ -97,8 +97,6 @@ body {
   position: relative;
   width: 50%;
   height: 100%;
-  display: flex;
-  align-items: center;
 }
 
 .cover {
@@ -114,6 +112,8 @@ body {
   position: relative;
   width: 50%;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .navLink ul {
