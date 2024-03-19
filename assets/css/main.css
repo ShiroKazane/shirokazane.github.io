@@ -150,7 +150,7 @@ body {
   min-height: 100vh;
   padding: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   transition: 1s;
 }
@@ -594,6 +594,10 @@ footer {
 }
 
 @media (min-width: 901px) and (max-width: 1024px) {
+  .sec .content {
+    margin-right: 2%;
+  }
+
   .sec .imgBx {
     width: 360px;
     min-width: 360px;
@@ -613,6 +617,10 @@ footer {
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
+  .sec .content {
+    margin-right: 3%;
+  }
+
   .sec .imgBx {
     width: 380px;
     min-width: 380px;
@@ -628,6 +636,42 @@ footer {
   .navLink ul li a {
     font-size: 2em;
     margin-left: 80px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1300px) {
+  .sec .content {
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1400px) {
+  .sec .content {
+    margin-right: 7%;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1500px) {
+  .sec .content {
+    margin-right: 9%;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 1600px) {
+  .sec .content {
+    margin-right: 12%;
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 1700px) {
+  .sec .content {
+    margin-right: 17%;
+  }
+}
+
+@media (min-width: 1701px) and (max-width: 1800px) {
+  .sec .content {
+    margin-right: 18%;
   }
 }
 
