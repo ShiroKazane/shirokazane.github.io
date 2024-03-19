@@ -37,6 +37,14 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+body.active {
+  overflow: hidden;
+}
+
+body.active ::-webkit-scrollbar {
+  display: none;
+}
+
 ::-webkit-scrollbar {
   width: 16px;
 }
