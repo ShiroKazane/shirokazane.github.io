@@ -155,7 +155,7 @@ body {
   min-height: 100vh;
   padding: 100px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   transition: 1s;
 }
@@ -170,7 +170,7 @@ body {
   height: 400px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 8% 6% 8% 12%;
+  margin: 8% 6% 8% 20%;
 }
 
 .sec .content {
@@ -376,7 +376,7 @@ footer {
   }
 
   .sec {
-    padding: 40px;
+    padding: 70px;
     flex-direction: column;
     justify-content: center;
   }
@@ -408,6 +408,14 @@ footer {
     font-size: 1.2em;
   }
 
+  .sec .post h1 {
+    font-size: 1.6em;
+  }
+
+  .sec .post p {
+    font-size: 1.1em;
+  }
+
   .banner {
     display: none;
   }
@@ -433,7 +441,7 @@ footer {
   }
 
   .sec {
-    padding: 40px;
+    padding: 70px;
     flex-direction: column;
     justify-content: center;
   }
@@ -465,6 +473,14 @@ footer {
     font-size: 1.4em;
   }
 
+  .sec .post h1 {
+    font-size: 1.6em;
+  }
+
+  .sec .post p {
+    font-size: 1.1em;
+  }
+
   .banner {
     display: none;
   }
@@ -490,7 +506,7 @@ footer {
   }
 
   .sec {
-    padding: 40px;
+    padding: 70px;
     flex-direction: column;
     justify-content: center;
   }
@@ -522,6 +538,14 @@ footer {
     font-size: 1.4em;
   }
 
+  .sec .post h1 {
+    font-size: 1.6em;
+  }
+
+  .sec .post p {
+    font-size: 1.1em;
+  }
+
   .banner {
     display: none;
   }
@@ -547,7 +571,7 @@ footer {
   }
 
   .sec {
-    padding: 40px;
+    padding: 70px;
     flex-direction: column;
     justify-content: center;
   }
@@ -579,6 +603,14 @@ footer {
     font-size: 1.6em;
   }
 
+  .sec .post h1 {
+    font-size: 1.6em;
+  }
+
+  .sec .post p {
+    font-size: 1.1em;
+  }
+
   .toggle.active {
     left: -120px;
   }
@@ -596,7 +628,7 @@ footer {
   }
   
   .sec {
-    padding: 40px;
+    padding: 70px;
     flex-direction: column;
     justify-content: center;
   }
@@ -628,6 +660,14 @@ footer {
     font-size: 1.6em;
   }
 
+  .sec .post h1 {
+    font-size: 1.6em;
+  }
+
+  .sec .post p {
+    font-size: 1.1em;
+  }
+
   .toggle.active {
     left: -120px;
   }
@@ -655,6 +695,14 @@ footer {
     font-size: 1.8em;
   }
 
+  .sec .post h1 {
+    font-size: 1.8em;
+  }
+
+  .sec .post p {
+    font-size: 1.1em;
+  }
+
   .navLink ul li a {
     font-size: 2em;
     margin-left: 60px;
@@ -676,6 +724,14 @@ footer {
 
   .sec .content h2 span {
     font-size: 2em;
+  }
+
+  .sec .post h1 {
+    font-size: 2em;
+  }
+
+  .sec .post p {
+    font-size: 1.2em;
   }
 
   .navLink ul li a {
